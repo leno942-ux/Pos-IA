@@ -1,0 +1,15 @@
+
+Passo a passo
+1. Veja o que mudou (opcional, mas útil para conferir): Isso mostra o novo arquivo em vermelho, como "untracked" (não rastreado).
+	git status 
+
+2. Adicione o arquivo à área de staging: Isso adiciona o arquivo novo (e qualquer outra alteração). Se quiser adicionar só aquele arquivo específico, pode usar git add nome-do-arquivo.ext no lugar do ..
+	git add .
+
+3. Faça o commit: Troque a mensagem por algo que descreva o que você adicionou.
+	git commit -m "adiciona novo arquivo"
+
+4. Envie para o GitHub: Repare que agora é só git push, sem precisar de -u origin main — isso porque essa ligação já foi feita da primeira vez.
+	git push
+
+Esse é o fluxo que você vai repetir sempre: add → commit → push, toda vez que quiser mandar mudanças novas para o GitHub. Quer que eu monte um resumo visual desse "ciclo do dia a dia" também, parecido com o outro que fiz?
