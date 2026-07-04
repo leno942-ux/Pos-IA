@@ -1,4 +1,3 @@
-
 Passo a passo
 1. Veja o que mudou (opcional, mas útil para conferir): Isso mostra o novo arquivo em vermelho, como "untracked" (não rastreado).
 	git status 
